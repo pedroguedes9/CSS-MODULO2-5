@@ -2,4 +2,4 @@
  CSS curso
  ehehehheheheeheheehehheheheheheheheheheheehehehehheehehhe
     <br>
-    <a href="desafios\d10\site.html"> Abrir meu site <a>
+    <a href="https://pedroguedes9.github.io/CSS-MODULO1/desafios\d10\site.html"> Abrir meu site <a>
