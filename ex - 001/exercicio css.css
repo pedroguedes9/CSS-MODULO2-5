@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+    font-family: fonte fofa;
+    src: url(fonts/GummyBear.ttf) format(opentype);
+}
+body {
+    background-color: #0021DB;
+    font: italic 600 1.1em "Open Sans", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    /* shorthand*/
+    font: italic 600 1.7em "Open Sans", sans-serif;
+    text-align: center;
+    color: #ffae00;
+    text-shadow: 1px 1px 1px #775100;
+    
+}
+p {
+    text-align: center;
+    font: italic 600 1em "Open Sans", sans-serif;
+    
+    
+}
+h2 {
+    font: italic 600 1.2em "Open Sans", sans-serif;
+    
+    text-align: center;
+    color: #ffae00;
+    text-shadow: 1px 1px 1px #775100;
+}
+main {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 12, 121, 0.507);
+}
+
+p#fonte {
+    text-align: center;
+    font: italic 600 0.7em "Open Sans", sans-serif;
+}
+h1#principal {
+    background-color: #0021DB;
+}
+span {
+    color: rgb(43, 255, 0);
+}
+a {
+    color: #0021DB;
+    text-decoration: underline;
+}
+a:visited {
+    color: #07006b;
+}
+a:hover {
+    font-weight: 800;
+}
+a:active {
+    color: black;
+}
+a:hover::before {
+    content: ' \002691  ';
+}
+a:hover::after {
+    content: ' \002691 ';
+}

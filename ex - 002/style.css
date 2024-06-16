@@ -1,0 +1,48 @@
+/*CONFigURAÇÃO GLOBAL */
+
+
+
+
+    div.d1 {
+        display: inline-block;
+        background-color: gray;
+        border: 1px solid black;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+    }
+
+
+div.d1:hover {
+    background-color: yellow;
+}
+div#d3:hover {
+color: rgb(255, 0, 0);
+
+}
+div#d3 > p{
+    display: none;
+    
+}
+div#d3:hover > p {
+    display: block;
+}
+a {
+    color: #0021DB;
+    text-decoration: underline;
+}
+a:visited {
+    color: #07006b;
+}
+a:hover {
+    font-weight: 800;
+}
+a:active {
+    color: black;
+}
+a::before {
+    content: '\002691  ';
+}
+a::after {
+    content: ' \002691';
+}
