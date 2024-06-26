@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            margin-bottom: 150px;
+            width: 500px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            border: 1px solid black     ;
+        }
+        .cnome {
+            background-color:blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+            
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Nenhum</td>
+        </tr>
+        <tr>
+            <td>joao</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Nenhum</td>
+        </tr>
+        <tr>
+            <td>Isa</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Nenhum</td>
+        </tr>
+        <tr>
+            <td>Estevao</td>
+            <td>M</td>
+            <td>56</td>
+            <td>Sim</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>M</td>
+            <td>10</td>
+            <td>nao</td>
+        </tr>
+    </table>
+</body>
+</html>
