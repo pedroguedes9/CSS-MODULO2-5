@@ -6,8 +6,31 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="cadastro.js" method="get" >
-
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="15" placeholder="nome" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0-10" step="0.5" required value="5">
+        </p>
+        <p>
+            <label for="imes">Periodo letivo:</label>
+            <input type="month" name="mes" id="imes" required value="2024-07">
+        </p>
+        <p>
+            <label for="idata">Dia da prova</label>
+            <input type="date" name="dia" id="idia" value="2008-04-09">
+        </p>
+            <p>
+                <label for="ihora">Hora da prova</label>
+                <input type="time" name="hora" id="ihora">
+            </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
 
     </form>
 </body>
