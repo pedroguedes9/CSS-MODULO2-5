@@ -3,29 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Formulario</title>
 </head>
 <body>
-    <form action="cadastro.js" method="get">    
+    <form action="cadastro.js" method="get">
         <p>
-            <label for="icor">cor:</label>
-            <input type="color" name="cor" id="icor" value="#00ff00">
-        </p>
-        <p>
-            <label for="isat">Nivel de satisfação:</label>
-            <input type="range" name="sat" id="isat" min="1" max="5" value="1">
-        </p>
-        <p>
-            <label for="ifoto">Foto</label>
-            <input type="file" name="foto" id="ifoto">
-        </p>
-        
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+            <label for="iest">Estado:</label>
+            <select name="est" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="AL">Alagoas</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP" selected >São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
 
-
+                <optgroup label="Região Nordeste">
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Contador</option>
+                <option>Desenvolvedor</option>
+            </datalist>
+        </p>
+        <p>
+            
+        </p>
     </form>
 </body>
 </html>
