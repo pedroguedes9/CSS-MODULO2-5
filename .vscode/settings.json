@@ -1,0 +1,4 @@
+{
+    "CodeGPT.Autocomplete.maxTokens": 1024,
+    "CodeGPT.Autocomplete.enabled": true
+}
