@@ -1,0 +1,13 @@
+i#burguer{
+    display: none;
+}
+nav {
+    display: block;
+}
+main {
+    margin: auto;
+    margin-top: 10px;
+}
+nav li {
+    display: inline-block;
+}
