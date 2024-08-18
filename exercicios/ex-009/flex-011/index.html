@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div.conteiner {
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }   
+        div.item{
+            background-color: lightblue;
+            border: 1px solid black;
+            flex-basis: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" style="flex-shrink: 1;"></div>
+        <div class="item" style="flex-shrink: 1">b</div>
+        <div class="item" style="flex-shrink: 8"></div>
+    </div>
+</body>
+</html>
