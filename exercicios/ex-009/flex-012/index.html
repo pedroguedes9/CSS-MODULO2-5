@@ -13,23 +13,15 @@
         div.item{
             background-color: lightblue;
             border: 1px solid black;
-        }
-        div#cxA{
-            flex: 1 1 200px;
-        }
-        div#cxB{
-            flex: 1 1 200px;
-        }
-        div#cxC{
-            flex: 1 8 200px;
+            flex-basis: 200px;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item" id="cxA">a</div>
-        <div class="item" id="cxB">b</div>
-        <div class="item" id="cxC">c</div>
+        <div class="item" style="flex-shrink: 1;"></div>
+        <div class="item" style="flex-shrink: 1">b</div>
+        <div class="item" style="flex-shrink: 8"></div>
     </div>
 </body>
 </html>
